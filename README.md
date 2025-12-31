@@ -5,13 +5,13 @@ The app focuses on clean UI, push-to-talk interaction, and practical desktop int
 
 ---
 
-## ✨ Features
-
-* 🎤 Push-to-talk voice recording
-* 📝 Live speech-to-text transcription
-* ⏱️ Recording timer with visual feedback
-* 📊 Animated waveform during recording
-* 🖥️ Cross-platform desktop app (Windows)
+## 🚀 Features
+- 🎙 Push-to-Talk recording
+- ⌨ Global keyboard shortcut
+- 🌐 Live transcription via WebSocket
+- 📋 Auto-paste text into active application
+- 🧠 Modular React architecture
+- ⚡ Lightweight Tauri desktop app
 
 ---
 
@@ -26,30 +26,13 @@ The goal of this project is to build a **real-world desktop voice dictation app*
 
 ---
 
-## 🛠️ Tech Stack
+## 🧱 Tech Stack
 
-### 🖥️ Frontend
-
-* React
-* Vite
-* HTML
-* CSS
-* JavaScript
-
- ⚙️ Desktop Backend
-
-* Tauri (Rust)
-
-### 🎧 Speech-to-Text
-
-* Deepgram Streaming WebSocket API
-
-### 🧰 Tools
-
-* Git & GitHub
-* VS Code
-* Node.js
-* Rust & Cargo
+- **Frontend**: React + Vite
+- **Backend**: Tauri (Rust)
+- **Audio**: MediaRecorder API
+- **Transcription**: WebSocket (Deepgram compatible)
+- **System Control**: Enigo + Clipboard
 
 ---
 
